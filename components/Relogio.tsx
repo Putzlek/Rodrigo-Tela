@@ -3,7 +3,7 @@ import { View, StyleSheet, Animated, Easing } from 'react-native';
 
 
 //cria o State
-const Clock: React.FC = () => {
+const Relogio: React.FC = () => {
   const [horas, mudarHoras] = useState(new Animated.Value(0));
   const [minutos, mudarMinutos] = useState(new Animated.Value(0));
   const [segundos, mudarSegundos] = useState(new Animated.Value(0));
@@ -104,4 +104,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default Clock;
+export default Relogio;

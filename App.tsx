@@ -13,18 +13,14 @@ import TelaPrincipal from "./components/telas/telaPrincipal";
 import TelaCadastro from "./components/telas/telacadastro";
 import {NavigationContainer} from "@react-navigation/native";
 import {createStackNavigator} from "@react-navigation/stack"
-import home from "./components/telas/home"
 export default class App extends Component {
   render() {
     
-    const Stack = createStackNavigator();
     
     return (
-      <NavigationContainer>
-        <Stack.Navigator>
-          <Stack.Screen name='home' component={home}/>
-        </Stack.Navigator>
-      </NavigationContainer>
+      <View>
+        <TelaPrincipal />
+      </View>
 
     );
   }

@@ -36,14 +36,6 @@ borderBlockColor: 'blue',
 borderTopColor: 'blue',
 borderColor: 'red',
 backgroundColor: 'white'
-},
-Titulos: {
-flexDirection: 'column',
-justifyContent: 'center',
-alignItems: 'center',
-fontSize: 25,
-top: -110,
-right: 130,
 }
 });
 export default Telainicio;

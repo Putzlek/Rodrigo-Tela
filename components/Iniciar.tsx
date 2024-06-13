@@ -1,10 +1,10 @@
 import React, { Component, } from "react";
-import { View, StyleSheet, TouchableOpacity, Text, Alert,Button } from "react-native";
+import { View, StyleSheet, TouchableOpacity, Text,Button } from "react-native";
 
 class Iniciar extends React.Component{
   render (){
     const onPressButton = () => {
-      // Exibe a caixa de diálogo ao pressionar o botão
+      
     };
   
     return (

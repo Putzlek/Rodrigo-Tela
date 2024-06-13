@@ -3,7 +3,7 @@ import { Text, View,Dimensions, StyleSheet } from "react-native";
 import Caixa from "../Caixas";
 import Caixa2 from "../Caixa2";
 import Background from "../Background";
-import Clock from "../clock";
+import Clock from "../Relogio";
 const TelaPrincipal = () => {
 return (
     <View>
