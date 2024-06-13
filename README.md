@@ -7,7 +7,7 @@ Esse é um projeto da disciplina de pogramação para Dispositivos Móveis. Do q
 
 [Documentação]
 
-Esse é um projeto simples, que para executar necessita apenas que você instale e configure o react native. E inicie um emulador.
+Esse é um projeto simples utilizando os componentes nativos do React Native utilizando principalmente de Typescript, que para executar necessita apenas que você instale e configure o react native. E inicie um emulador.
 
 
 Dentro do mesmo existem 4 telas diferentes, as quais são projetadas com componentes do react native
